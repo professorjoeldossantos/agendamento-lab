@@ -1,3 +1,4 @@
-flask
+flask==2.3.3
 psycopg2-binary
 gunicorn
+
