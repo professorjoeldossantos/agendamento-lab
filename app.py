@@ -46,7 +46,7 @@ def init_db():
     conn.commit()
     cur.close()
     conn.close()
-
+init_db()
 
 @app.route("/", methods=["GET", "POST"])
 def index():
