@@ -6,6 +6,7 @@ from datetime import datetime
 
 app = Flask(__name__)
 
+
 EQUIPAMENTOS = {
     "Notebook": 10,
     "Tablet": 10,
@@ -46,9 +47,6 @@ def init_db():
     cur.close()
     conn.close()
 
-@app.before_first_request
-def initialize():
-    init_db()
 
 @app.route("/", methods=["GET", "POST"])
 def index():
