@@ -146,7 +146,10 @@ TEMPLATE = """
 <div class="container mt-4">
 
 <div class="card shadow p-4 mb-4">
-<h3 class="text-center">📚 Agendamento de Equipamentos</h3>
+<h3 class="text-center">
+📚 Agendamento de Equipamentos <br>
+Eeb Professor Ary Mascarenhas Passos
+</h3>
 
 {% if erro %}
 <div class="alert alert-danger">{{erro}}</div>
